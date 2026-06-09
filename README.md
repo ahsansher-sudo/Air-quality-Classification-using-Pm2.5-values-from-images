@@ -1,0 +1,2 @@
+# Air-quality-Classification-using-Pm2.5-values-from-images
+A multimodal framework classifies outdoor photos into four EPA PM2.5 categories by fusing DINOv3 ViT-B/16 visual embeddings with weather context (temperature, humidity). Haze augmentation and feature caching enable 50-epoch training in under 3 seconds. On HVAQ it achieves 93.8% validation accuracy; all test errors fall within adjacent categories.
